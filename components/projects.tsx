@@ -18,6 +18,7 @@ export default function Projects() {
             <Project {...project} />
           </React.Fragment>
         ))}
+        <h1 className="font-bold text-3xl text-center">Check this on my github</h1>
       </div>
     </section>
   );

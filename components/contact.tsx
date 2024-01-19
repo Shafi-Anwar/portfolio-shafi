@@ -70,7 +70,6 @@ export default function Contact() {
       
       </form>
       <Button  variant="ghost">Submit</Button>
-      <p className="font-bold text-center">I have not build this as expected because of some suddenness. But I can build it as your expectations after I join your company</p>
     </motion.section>
   );
 }
