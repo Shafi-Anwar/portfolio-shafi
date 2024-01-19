@@ -4,7 +4,6 @@ import { useRef } from "react";
 import { projectsData } from "../@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-
 type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
@@ -48,23 +47,28 @@ export default function Project({
           </ul>
         </div>
 
-        <Image src={imageUrl}
-          alt="Project I worked on"
-          quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
-        group-hover:scale-[1.04]
+        <motion.div className="group">
+          <section>
+            <Image
+              src=""
+              alt="Project I worked on"
+              quality={95}
+              className={`
+        absolute
+        hidden sm:block
+        top-8
+        -right-40 md:right-0 md:left-40 w-[28.25rem]
+        rounded-t-lg
+        shadow-2xl
+        transition
+        group-hover:scale-104
         group-hover:-translate-x-3
         group-hover:translate-y-3
         group-hover:-rotate-2
+      `}
+            />
+          </section>
+        </motion.div>
 
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
-
-        group-even:right-[initial] group-even:-left-40"
-        />
-      </section>
-    </motion.div>
-  );
+        );
 }
