@@ -1,11 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaDiscord, FaReact, FaTwitter } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { LuCode } from "react-icons/lu";
-import t from "@/public/t.png";
-import discord from "@/public/discord.png";
-import portfolio from "@/public/portfolio.png";
+
 
 export const links = [
   {
@@ -42,21 +40,22 @@ export const projectsData = [
     description:
       "I worked as a frontend-developer on this project  for  2 months .",
     tags: ["React", "Tailwind",],
-    imageUrl: t,
+    imageUrl: FaTwitter,
   },
   {
     title: "Discord Clone",
     description:
       "While doing this project I learnt NEXTJS App routing and learnt TS(typescript)",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "SupaBase"],
-    imageUrl: discord,
+    imageUrl: FaDiscord,
   },
   {
     title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: portfolio,
+    imageUrl: FaReact
+    ,
   },
 ] as const;
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { projectsData } from "@/lib/data";
+import { projectsData } from "../@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
@@ -48,8 +48,7 @@ export default function Project({
           </ul>
         </div>
 
-        <Image
-          src={imageUrl}
+        <Image src={imageUrl}
           alt="Project I worked on"
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
