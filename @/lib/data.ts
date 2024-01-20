@@ -39,7 +39,7 @@ export const projectsData = [
     title: "Twitter Clone",
     description:
       "I worked as a frontend-developer on this project  for  2 months .",
-    tags: ["React", "Tailwind",],
+    tags: ["React", "CSS","Express.JS", "Node.JS"],
     
   },
   {
