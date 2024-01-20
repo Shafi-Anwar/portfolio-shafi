@@ -98,6 +98,9 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
+        <a href="https://mail.google.com/mail/u/0/#inbox">
+          <p className="font-bold text-white"></p>
+        </a>
       </motion.div>
     </section>
   );
