@@ -9,6 +9,9 @@ import toast from "react-hot-toast";
 import { Button } from "./ui/button";
 
 export default function Contact() {
+  const handleClick = () => {
+    alert("I have not built it functionally but you can reach me with my Github, LinkedIn and Email")
+  }
   const { ref } = useSectionInView("Contact");
 
   return (
@@ -34,9 +37,8 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+          shafianwar694@gmail.com
         </a>{" "}
-        or through this form.
       </p>
 
       <form
@@ -53,7 +55,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white text-black dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="senderEmail"
           type="email"
           required
@@ -69,7 +71,7 @@ export default function Contact() {
         />
       
       </form>
-      <Button  variant="ghost">Submit</Button>
+      <Button   className="rounded-full font-bold" onClick={(handleClick)}>Submit</Button>
     </motion.section>
   );
 }
