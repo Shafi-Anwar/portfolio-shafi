@@ -36,17 +36,17 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Twitter Clone",
+    title: "MarketHippo",
     description:
-      "I worked as a frontend-developer on this project  for  2 months .",
-    tags: ["React", "CSS","Express.JS", "Node.JS"],
+      "I am working on this project  for   1 month .",
+    tags: ["Next.JS", "CSS","Express.JS", "Node.JS"],
     
   },
   {
-    title: "Discord Clone",
+    title: "DOCS(UI Project)",
     description:
-      "While doing this project I learnt NEXTJS App routing and learnt TS(typescript)",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "SupaBase"],
+      "While doing this project I learnt Tailwindcss in advanced and whole react",
+    tags: ["React", "Javascript","React-icons", "TailwindCSS"],
     
   },
   {
