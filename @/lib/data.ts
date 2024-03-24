@@ -28,24 +28,25 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "MarketHippo",
+    title: "Animated website",
     description:
       "I am working on this project  for   1 month .",
-    tags: ["Next.JS", "CSS","Express.JS", "Node.JS"],
-    
+    tags: ["HTML", "CSS","JS", "Shery.JS","GSAP"],
+    link:"",
   },
   {
     title: "DOCS(UI Project)",
     description:
-      "While doing this project I learnt Tailwindcss in advanced and whole react",
+      "While doing this project I learnt Tailwindcss in advanced  react and I also learnt animations, this is only frontend website design project ",
     tags: ["React", "Javascript","React-icons", "TailwindCSS"],
-    
+    link:"docs-page-ui.vercel.app",
   },
   {
     title: "Aussie jobs",
     description:
       "A job seeking platform for interns and job seekers, While doing this projects I learnt MERN stack and how to connect DB to project.",
     tags: ["MongoDB", "Express.JS", "React", "Tailwind", "Node.JS"],
+    link:"",
   },
 ] as const;
 

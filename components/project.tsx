@@ -8,7 +8,8 @@ type ProjectProps = typeof projectsData[number];
 export default function Project({
   title,
   description,
-  tags
+  tags,
+  link
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -32,6 +33,9 @@ export default function Project({
           <h3 className="text-2xl font-semibold dark:text-white text-black">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
+          </p>
+          <p  className="mt-2 leading-relaxed text-sky-700 underline cursor-pointer dark:text-white/70"> 
+          {link}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
