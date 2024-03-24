@@ -30,7 +30,7 @@ export const projectsData = [
   {
     title: "Animated website",
     description:
-      "I am working on this project  for   1 month .",
+      "I have worked and learnt animations by building this website",
     tags: ["HTML", "CSS","JS", "Shery.JS","GSAP"],
     link:"",
   },
