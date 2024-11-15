@@ -28,10 +28,10 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Animated website",
+    title: "Maneger",
     description:
-      "I have worked and learnt animations by building this website.",
-    tags: ["HTML", "CSS","JS", "Shery.JS","GSAP"],
+      "This is the web app that helps employer to manage employee data",
+    tags: ["Nextjs", "Tailwindcss","JS"],
     link:"",
   },
   {
@@ -48,6 +48,21 @@ export const projectsData = [
     tags: ["MongoDB", "Express.JS", "React", "Tailwind", "Node.JS"],
     link:"",
   },
+  {
+    title: "StreamScrape",
+    description:
+      "A platform where business owners can manage their workflows very easily and smoothly(working...)",
+    tags: ["Nextjs 15", "ReactQuery", "ReactFlow", "Tailwind CSS", "Node.JS", "TS"],
+    link:"coming so",
+  },
+    {
+      title: "Poal",
+      description:
+        "A loom clone but with Advance AI features(work in progress...)",
+      tags: ["Neon DB", "Prisma", "NextJS", "Tailwind CSS", "AWS", "TS", "more...."],
+      link:"link coming soon....",
+
+  }
 ] as const;
 
 export const skillsData = [
@@ -56,17 +71,19 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Query",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
+  "Tailwind CSS",
   "MongoDB",
   "Express",
   "SQL",
+  "Prisma",
+  "ReactFlow",
   "Python for data analysis",
   "Redux Toolkit",
   "React Hook Form",
   "Frontend",
   "Framer Motion",
-  "Backend Development",
 ] as const;

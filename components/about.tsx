@@ -19,15 +19,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="m-3">
-        <span className="font-underline">My favourite Hobby is to Code on My PC</span>
+        <span className="font-underline">I am Shafi, I love to code, my main focus is to build fully functional Full stack web apps, with best UI experience and DX,</span>
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching Sports Match, and playing with my cat. I also enjoy{" "}
+        <span className="italic">My Tech Stack is: Nextjs 15, Typescript, React, Tailwindcss, neondb, Prisma(ORM), React Query</span>, 
+        For more things pls feel free to connect with me 😊{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and psychology books</span>. 
+        <span className="font-medium">Next JS 15, </span>. 
       </p>
     </motion.section>
   );
